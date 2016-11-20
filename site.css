@@ -1,0 +1,90 @@
+h1 {
+  font-family: Verdana;
+}
+
+
+
+main
+{
+  background-color:black;
+  color: #f4a460;
+  font-family: verdana;
+  padding: 5px 2px;
+  display: block;
+  overflow: auto;
+  font-size:13px;
+  opacity:0.85;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+.newspaper {
+  webkit-column-count: 3;
+    column-count: 3;
+    webkit-column-gap: 40px;
+    column-gap: 40px;
+    webkit-column-rule-style: solid;
+    column-rule-style: solid;
+}
+
+.newspaper2 {
+  webkit-column-count: 1;
+    column-count: 1;
+    webkit-column-gap: 40px;
+    column-gap: 40px;
+    webkit-column-rule-style: solid;
+    column-rule-style: solid;
+}
+
+.newspaper3 {
+  webkit-column-count: 2;
+    column-count: 2;
+    webkit-column-gap: 40px;
+    column-gap: 40px;
+    webkit-column-rule-style: solid;
+    column-rule-style: solid;
+}
+
+
+.space {
+  webkit-column-count: 1;
+  column-count: 1;
+}
+
+
+
+a:link {
+    color: orange;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+footer {
+  float: left;
+  width: 800px;
+  font-weight: inherit;
+  letter-spacing:0.1em;
+  
+}
+
+
+

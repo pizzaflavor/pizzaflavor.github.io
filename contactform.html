@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang-"en">
+<head>
+
+<title>Contact Form</title>
+<meta charset="utf-8">
+
+<link rel="icon" href="btc.ico" type="image/x-icon">
+<link rel="shortcut icon" href="btc.ico" type="image/x-icon">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+          $("input").focus(function(){
+              $(this).css("background-color", "#cccccc");
+          });
+          $("input").blur(function(){
+              $(this).css("background-color", "#ffffff");
+          });
+      });
+    </script>
+
+</head>
+
+
+
+<style>
+
+#wrapper
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1080px;
+  height: 510px;
+
+}
+
+
+
+h1 {  margin-bottom: 20px;
+      font-size: 70px;
+      text-align: left;
+      color: #f4a460;
+      height: 75px;
+    }
+
+
+}
+
+nav a:link       { color: white; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover     { color: grey;
+               background-color: orange; }
+
+
+main
+{
+  background-color:black;
+  color: #f4a460;
+  font-family: verdana;
+  padding: 5px 2px;
+  display: block;
+  overflow: auto;
+  font-size:13px;
+  opacity:0.8;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+
+form 
+{
+  background-color: grey;
+  font-family: Verdana;
+  padding: 20px;
+}
+
+label
+{
+  float: left;
+  width: 100px;
+  clear: left;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+
+input, textarea 
+{
+  margin-top: 10px;
+  display: block;
+
+}
+
+#submit 
+{
+  margin-left: 1px;
+}
+
+
+</style>
+</head>
+
+<div id="wrapper">
+<main>
+
+
+
+
+<body background="blockchain1.jpg">
+
+
+
+
+
+
+
+<div style="float: right;">
+<select size="1" name="navigate" id="navigate">
+  <option>Contact</option>
+  <option value="firstpage.html">Undestanding Bitcoin</option>
+  <option value="2ndpage.html">The Importance of Bitcoin</option>
+  <option value="3rdpage.html">Using Bitcoin</option>
+  <option value="4thpage.html">History of Bitcoin</option>
+  <option value="5thpage.html">Controversy</option>
+  <option value="6thpage.html">Bitcoins Influence</option>
+</select>
+</div>
+
+<h1 onmouseover="style.color='red'" onmouseout="style.color='#f4a460'">Contact </h1>
+<div>
+<p id="demo">Feeling Generous?</p>
+<button type="button" onclick="document.getElementById('demo').innerHTML = 'BTC Address: 1LaCawJwSf1jFVGA28s25Un1v3PsuXrH6N'">Tip Jar!</button>
+</div>
+
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+
+
+
+
+
+
+
+
+<form method="post" action="mailto:parkdh@vcu.edu">
+  <fieldset>
+    <legend>Got Questions?</legend>
+      <label> First Name: <input type="text" name="first name" id="first name"
+          size="35">
+      </label>
+  <br>
+  <br>  
+    <label>Last Name: <input type="text" name="last name" id="last name"
+            size="35">
+    </label>
+  <br>
+  <br>
+    <label>E-mail: <input type="text" name="e-mail" id="e-mail"
+          size="35">
+    </label>
+  </fieldset>
+
+
+  <label2 for="comments">Comments/Questions:</label>
+  <br>
+  <textarea name="comments" id="comments" rows="4" cols="50"></textarea>
+
+  <input id="submit" type="submit" value="subimit">
+  </label2>
+</form>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+  <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
